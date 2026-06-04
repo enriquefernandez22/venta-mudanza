@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "titulo": "Exprimidor Kansai",
+    "descripcion": "¡Excelente oportunidad por viaje!",
+    "precioSugerido": "$25.000",
+    "precioVenta": "$25.000",
+    "imagen": "img/Exprimidor Kansa.webp"
+  },
+  {
+    "id": 2,
+    "titulo": "Pochoclera Ultracomb PO-2700",
+    "descripcion": "¡Excelente oportunidad por viaje!",
+    "precioSugerido": "$22.000",
+    "precioVenta": "$25.000",
+    "imagen": "img/Pochoclera Ultracomb.webp"
+  },
+  {
+    "id": 3,
+    "titulo": "Cabina de Uñas UV Led Professional SUN 5 48W",
+    "descripcion": "¡Excelente oportunidad por viaje!",
+    "precioSugerido": "$18.000",
+    "precioVenta": "$18.000",
+    "imagen": "img/Cabina de Uñas  UV Led.webp"
+  },
+  {
+    "id": 4,
+    "titulo": "Modulo Rack L Biblioteca Mueble Tv Modular Living Comedor",
+    "descripcion": "¡Excelente oportunidad por viaje!",
+    "precioSugerido": "$50.000",
+    "precioVenta": "$50.000",
+    "imagen": "img/Mueble en L.webp"
+  },
+  {
+    "id": 5,
+    "titulo": "Biblioteca Nordica Zig Zag de Pino en crudo sin pintar  medidas 80 cmx 25 cm x 180 cm Aprox",
+    "descripcion": "¡Excelente oportunidad por viaje!",
+    "precioSugerido": "$40.000",
+    "precioVenta": "$40.000",
+    "imagen": "img/Biblioteca Zigzag.webp"
+  },
+  {
+    "id": 6,
+    "titulo": "Ventilador 3 En 1 Tivoli 18 Pulgadas Con 5 Palas Estructura Blanco Diámetro 45 cm Material de las aspas Plástico",
+    "descripcion": "¡Excelente oportunidad por viaje!",
+    "precioSugerido": "$38.000",
+    "precioVenta": "$35.000",
+    "imagen": "img/ventilador 3 En 1 Tivoli 18 Pulgadas Con 5 Palas Estructura Blanco.webp"
+  },
+  {
+    "id": 7,
+    "titulo": "Ventilador3 En 1 Kanji Kjh-fh1209 Con 3 Palas Metal 18",
+    "descripcion": "¡Excelente oportunidad por viaje!",
+    "precioSugerido": "$18.000",
+    "precioVenta": "$15.000",
+    "imagen": "img/3 En 1 Kanji Kjh-fh1209 Ventilador Con 3 Palas Metal.webp"
+  },
+  {
+    "id": 8,
+    "titulo": "Soporte para TV de 20\" a 60\" Brazo Articulado Extensible",
+    "descripcion": "¡Excelente oportunidad por viaje!",
+    "precioSugerido": "$12.000",
+    "precioVenta": "$12.000",
+    "imagen": "img/Base de tv.webp"
+  },
+  {
+    "id": 9,
+    "titulo": "Acetato y bolsas mangas  descartables repostería",
+    "descripcion": "¡Excelente oportunidad por viaje!",
+    "precioSugerido": "",
+    "precioVenta": "$15.000",
+    "imagen": "img/acetato de reposteria y manga desechable de reposteria.webp"
+  },
+  {
+    "id": 10,
+    "titulo": "Caja de varias modelos de placas",
+    "descripcion": "¡Excelente oportunidad por viaje!",
+    "precioSugerido": "",
+    "precioVenta": "$ 15,000",
+    "imagen": "img/Caja de varias modelos de placas.webp"
+  },
+  {
+    "id": 11,
+    "titulo": "Termometro Digital Lcd Para Cocina",
+    "descripcion": "¡Excelente oportunidad por viaje!",
+    "precioSugerido": "",
+    "precioVenta": "$6.000",
+    "imagen": "img/Termometro Digital Lcd Para Cocina.webp"
+  },
+  {
+    "id": 12,
+    "titulo": "Set Kit Bowl ensaladera de Acero",
+    "descripcion": "¡Excelente oportunidad por viaje!",
+    "precioSugerido": "",
+    "precioVenta": "$15.000",
+    "imagen": "img/set de bolw de aluminio.webp"
+  },
+  {
+    "id": 13,
+    "titulo": "Accesorios Repostería",
+    "descripcion": "¡Excelente oportunidad por viaje!",
+    "precioSugerido": "",
+    "precioVenta": "$12.000",
+    "imagen": "img/Accesorios de reposteria.webp"
+  },
+  {
+    "id": 14,
+    "titulo": "Set de 4 Moldes Savarini Chico",
+    "descripcion": "¡Excelente oportunidad por viaje!",
+    "precioSugerido": "",
+    "precioVenta": "$20.000",
+    "imagen": "img/Set de 4 moldes Savarini.webp"
+  },
+  {
+    "id": 15,
+    "titulo": "Molde para biscochuelo cuadrado Alta n1 Dona Clara 9x21x21",
+    "descripcion": "¡Excelente oportunidad por viaje!",
+    "precioSugerido": "",
+    "precioVenta": "$25.000",
+    "imagen": "img/molde cuadrado.webp"
+  },
+  {
+    "id": 16,
+    "titulo": "Molde aro cintura para biscochuelo de 24 y 20cm",
+    "descripcion": "¡Excelente oportunidad por viaje!",
+    "precioSugerido": "",
+    "precioVenta": "$12.000",
+    "imagen": "img/set de aros.webp"
+  },
+  {
+    "id": 17,
+    "titulo": "Cortador de Tortas en capas",
+    "descripcion": "¡Excelente oportunidad por viaje!",
+    "precioSugerido": "",
+    "precioVenta": "$7.000",
+    "imagen": "img/cortador de bizcochos.webp"
+  },
+  {
+    "id": 18,
+    "titulo": "Set de Moldes Pastafrola Rizada 20cm, 12cm y 7cm",
+    "descripcion": "¡Excelente oportunidad por viaje!",
+    "precioSugerido": "",
+    "precioVenta": "$25.000",
+    "imagen": "img/Set de moldes pastaflora risada.webp"
+  },
+  {
+    "id": 19,
+    "titulo": "Molde para biscocho redondo 26cm, 20 y 18cm",
+    "descripcion": "¡Excelente oportunidad por viaje!",
+    "precioSugerido": "",
+    "precioVenta": "$15.000",
+    "imagen": "img/Set de moldes 26-20-18.webp"
+  },
+  {
+    "id": 20,
+    "titulo": "Molde para biscocho redondo 27cm, 20 y 14cm",
+    "descripcion": "¡Excelente oportunidad por viaje!",
+    "precioSugerido": "",
+    "precioVenta": "$15.000",
+    "imagen": "img/set de moldes 27-20-14.webp"
+  },
+  {
+    "id": 21,
+    "titulo": "Molde para biscocho redondo 20cm, 16 y 10cm",
+    "descripcion": "¡Excelente oportunidad por viaje!",
+    "precioSugerido": "",
+    "precioVenta": "$15.000",
+    "imagen": "img/Set de moldes 20-16-10.webp"
+  },
+  {
+    "id": 22,
+    "titulo": "Molde para biscocho redondo 20cm, 16 y 14cm",
+    "descripcion": "¡Excelente oportunidad por viaje!",
+    "precioSugerido": "",
+    "precioVenta": "$15.000",
+    "imagen": "img/Set de moldes 20-16-1.webp"
+  },
+  {
+    "id": 23,
+    "titulo": "Balanza digital de 10k de cocina",
+    "descripcion": "¡Excelente oportunidad por viaje!",
+    "precioSugerido": "",
+    "precioVenta": "$10.000",
+    "imagen": "img/Balanza digital de cocina 10kg.webp"
+  },
+  {
+    "id": 24,
+    "titulo": "Moldes para muffin 2 bandejas de 12",
+    "descripcion": "¡Excelente oportunidad por viaje!",
+    "precioSugerido": "",
+    "precioVenta": "$10.000",
+    "imagen": "img/Moldes para muffin.webp"
+  },
+  {
+    "id": 25,
+    "titulo": "Bicicleta Olmo Cosmo Bold Rodado 16 Rueditas Infantil Negra",
+    "descripcion": "¡Excelente oportunidad por viaje!",
+    "precioSugerido": "$85.000",
+    "precioVenta": "$80.000",
+    "imagen": "img/Bicicleta Olmo cosmo bol rodado 16.webp"
+  },
+  {
+    "id": 26,
+    "titulo": "Kit mancuernas + barra + discos",
+    "descripcion": "¡Excelente oportunidad por viaje!",
+    "precioSugerido": "$55.000",
+    "precioVenta": "$45.000",
+    "imagen": "img/Set de pesas.webp"
+  },
+  {
+    "id": 27,
+    "titulo": "Nebulizador a Pistón N26 Piuvento SILFAB",
+    "descripcion": "2 Funciones Nebulizador y Aspirador. - NO Trae accesorio aspirador pipeta. - ACCESORIOS INCLUIDOS. - Con Kit Completo de Nebulización - Mascara para Niños / Mascara para Adultos - Adaptador Bucal - Manguera Plástica - Pipeta Nebulizadora - Función Nebulizar (Salida de Aire) - Función Aspirador (Filtro)<br><br>¡Excelente oportunidad por viaje!",
+    "precioSugerido": "$65.000",
+    "precioVenta": "$60.000",
+    "imagen": "img/Nebulizador.webp"
+  }
+]

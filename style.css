@@ -1,0 +1,140 @@
+/* Reseteo básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #FDFBF7; /* Tono crema muy suave y elegante */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabecera / Hero */
+.hero {
+    text-align: center;
+    padding: 3rem 1.5rem;
+    background-color: #1A2530; /* Azul marino profundo */
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto 1rem auto;
+}
+
+.terms {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #F3E5D8; /* Toque crema oscuro */
+    background: rgba(255,255,255,0.1);
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+}
+
+/* Contenedor de la tienda (Grid Responsivo) */
+.shop-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 0 2rem 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Tarjetas de producto */
+.card {
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.card picture {
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    display: block;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-content {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; 
+}
+
+.card-content h2 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #1A2530;
+}
+
+.description {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+    flex-grow: 1;
+}
+
+/* Precios */
+.price-box {
+    margin-bottom: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    min-height: 50px; /* Mantiene la alineación aunque no haya precio sugerido */
+}
+
+.suggested-price {
+    display: none;
+    font-size: 0.85rem;
+    color: #999;
+    text-decoration: line-through;
+    margin-bottom: 0.2rem;
+}
+
+.sale-price {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #E65A5A; /* Color de urgencia/oferta */
+}
+
+/* Botón de WhatsApp */
+.btn-whatsapp {
+    display: block;
+    text-align: center;
+    background-color: #25D366; 
+    color: white;
+    text-decoration: none;
+    padding: 0.8rem;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.2s;
+}
+
+.btn-whatsapp:hover {
+    background-color: #128C7E;
+}
