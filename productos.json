@@ -10,9 +10,9 @@
   },
   {
     "id": 2,
-    "titulo": "Televisor Tophouse 55\" 4K /udl50mp668ln",
-    "descripcion": "Cuenta con wi-fi y puerto de red. Posee 4 puertos HDMI. Equipado con conexión USB. Incluye control remoto.",
-    "fecha": "Se entrega despues del 15 Agosto",
+    "titulo": "Televisor Tophouse 55\" 4K Smart TV",
+    "descripcion": "Cuenta con wi-fi y puerto de red. Posee 4 puertos HDMI. Equipado con conexión USB. Incluye control remoto. Modelo: UDL50MP668LN",
+    "fecha": "Se entrega después del 15 Agosto",
     "precioSugerido": "$520.000",
     "precioVenta": "$450.000",
     "imagen": "img/Televisor Tophouse 55.png"
@@ -21,7 +21,7 @@
     "id": 3,
     "titulo": "Impresora de corte Brother ScanNCut SDX225",
     "descripcion": "",
-    "fecha": "Se entrega despues del 15 Agosto",
+    "fecha": "Se entrega después del 15 Agosto",
     "precioSugerido": "$950.000",
     "precioVenta": "$850.000",
     "imagen": "img/impresora de corte.png"
@@ -48,7 +48,7 @@
     "id": 6,
     "titulo": "Cafetera SL-CM9402",
     "descripcion": "",
-    "fecha": "",
+    "fecha": "Se entrega después del 15 Agosto",
     "precioSugerido": "$28.000",
     "precioVenta": "$25.000",
     "imagen": "img/cafetera.png"
@@ -92,7 +92,7 @@
   {
     "id": 11,
     "titulo": "Máquina giratoria resina tumbler doble",
-    "descripcion": "Maquina giratoria para trabajos con resina. Ideal para decorar tazas. Mates. Vasos. Termos. Etc. Cuanta con 2 motores de 4 a 5 vueltas por minuto, eso le da tiempo a la resina que se valla secando uniformemente.",
+    "descripcion": "Maquina giratoria para trabajos con resina. Ideal para decorar tazas. Mates. Vasos. Termos. Etc. Cuanta con 2 motores de 4 a 5 vueltas por minuto, eso le da tiempo a la resina que se vaya secando uniformemente.",
     "fecha": "",
     "precioSugerido": "$70.000",
     "precioVenta": "$50.000",
@@ -165,7 +165,7 @@
     "id": 19,
     "titulo": "Laminadora frío/calor",
     "descripcion": "",
-    "fecha": "Se entrega despues del 15 Agosto",
+    "fecha": "Se entrega después del 15 Agosto",
     "precioSugerido": "$45.000",
     "precioVenta": "$40.000",
     "imagen": "img/LAMINADORA.png"
@@ -244,7 +244,7 @@
   },
   {
     "id": 28,
-    "titulo": "Termometro Digital Lcd Para Cocina",
+    "titulo": "Termometro Digital LCD Para Cocina",
     "descripcion": "",
     "fecha": "",
     "precioSugerido": "",
