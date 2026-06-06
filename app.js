@@ -46,7 +46,8 @@ document.addEventListener("DOMContentLoaded", () => {
         .then(productos => {
             productos.forEach(producto => {
                 const card = document.createElement("article");
-                card.className = "card";
+                const isSold = producto.vendido === true || producto.estado === "vendido";
+                card.className = isSold ? "card card-sold" : "card";
 
                 // Validaciones para no romper el layout si falta algún dato
                 const precioSugeridoHtml = producto.precioSugerido
@@ -66,6 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 // Inyectamos el texto de la oportunidad directamente en el HTML
                 card.innerHTML = `
+                    ${isSold ? '<span class="sold-badge">VENDIDO</span>' : ""}
                     <img src="${imagenes[0]}" data-fallbacks="${encodedFallbacks}" alt="${producto.titulo}" loading="lazy">
                     <div class="card-content">
                         <h2>${producto.titulo}</h2>
@@ -76,9 +78,9 @@ document.addEventListener("DOMContentLoaded", () => {
                         <span class="sale-price">${producto.precioVenta}</span>
                         </div>
                         <p class="opportunity">¡Excelente oportunidad por viaje!</p>
-                        <a href="${linkWhatsapp}" target="_blank" rel="noopener noreferrer" class="btn-whatsapp">
-                            Consultar
-                        </a>
+                        ${isSold
+                            ? '<span class="btn-whatsapp btn-disabled">Vendido</span>'
+                            : `<a href="${linkWhatsapp}" target="_blank" rel="noopener noreferrer" class="btn-whatsapp">Consultar</a>`}
                     </div>
                 `;
 

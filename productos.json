@@ -186,7 +186,8 @@
     "fecha": "",
     "precioSugerido": "",
     "precioVenta": "$30.000",
-    "imagen": "img/Bandejas para decoracion de fiesta.png"
+    "imagen": "img/Bandejas para decoracion de fiesta.png",
+    "vendido": true
   },
   {
     "id": 22,
@@ -312,7 +313,8 @@
     "fecha": "",
     "precioSugerido": "",
     "precioVenta": "$25.000",
-    "imagen": "img/Set de moldes pastaflora risada.png"
+    "imagen": "img/Set de moldes pastaflora risada.png",
+    "vendido": true
   },
   {
     "id": 36,
@@ -357,7 +359,8 @@
     "fecha": "",
     "precioSugerido": "",
     "precioVenta": "$10.000",
-    "imagen": "img/Balanza digital de cocina 10kg.png"
+    "imagen": "img/Balanza digital de cocina 10kg.png",
+    "vendido": true
   },
   {
     "id": 41,
@@ -429,15 +432,16 @@
     "fecha": "",
     "precioSugerido": "$22.000",
     "precioVenta": "$20.000",
-    "imagen": "img/Inflador De Globos Electrico.png"
+    "imagen": "img/Inflador De Globos Electrico.png",
+    "vendido": true
   },
   {
     "id": 49,
-    "titulo": "Vestidos de fiesta x5 ($35k c/u)",
+    "titulo": "Vestidos de fiesta x2 ($35k c/u)",
     "descripcion": "",
     "fecha": "",
-    "precioSugerido": "$175.000",
-    "precioVenta": "$175.000",
+    "precioSugerido": "$70.000",
+    "precioVenta": "$70.000",
     "imagen": "img/Vestidos de fiestas.png"
   },
   {
@@ -446,7 +450,7 @@
     "descripcion": "",
     "fecha": "",
     "precioSugerido": "",
-    "precioVenta": "$ 35000",
+    "precioVenta": "$ 35.000",
     "imagen": "img/carteras.png"
   },
   {
@@ -455,7 +459,7 @@
     "descripcion": "ski/snowboard talla XL mujer",
     "fecha": "",
     "precioSugerido": "",
-    "precioVenta": "$ 40000",
+    "precioVenta": "$ 40.000",
     "imagen": "img/Chaqueta DC .png"
   },
   {
