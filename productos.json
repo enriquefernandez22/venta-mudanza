@@ -58,6 +58,7 @@
     "titulo": "Pochoclera Ultracomb PO-2700",
     "descripcion": "",
     "fecha": "",
+    "vendido": true,
     "precioSugerido": "$22.000",
     "precioVenta": "$25.000",
     "imagen": "img/Pochoclera Ultracomb.png"
@@ -396,7 +397,8 @@
     "fecha": "",
     "precioSugerido": "$55.000",
     "precioVenta": "$45.000",
-    "imagen": "img/Set de pesas.png"
+    "imagen": "img/Set de pesas.png",
+    "vendido": true
   },
   {
     "id": 45,
@@ -405,7 +407,8 @@
     "fecha": "",
     "precioSugerido": "$40.000",
     "precioVenta": "$35.000",
-    "imagen": "img/elastica TRX.png"
+    "imagen": "img/elastica TRX.png",
+    "vendido": true
   },
   {
     "id": 46,
