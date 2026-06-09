@@ -70,7 +70,8 @@
     "fecha": "",
     "precioSugerido": "$18.000",
     "precioVenta": "$15.000",
-    "imagen": "img/Molinera.png"
+    "imagen": "img/Molinera.png",
+    "vendido": true
   },
   {
     "id": 9,
@@ -160,7 +161,8 @@
     "fecha": "",
     "precioSugerido": "$12.000",
     "precioVenta": "$12.000",
-    "imagen": "img/Base de tv.png"
+    "imagen": "img/Base de tv.png",
+    "vendido": true
   },
   {
     "id": 19,
@@ -305,7 +307,8 @@
     "fecha": "",
     "precioSugerido": "",
     "precioVenta": "$7.000",
-    "imagen": "img/cortador de bizcochos.png"
+    "imagen": "img/cortador de bizcochos.png",
+    "vendido": true
   },
   {
     "id": 35,
