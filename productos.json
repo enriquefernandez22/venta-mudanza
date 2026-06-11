@@ -4,477 +4,683 @@
     "titulo": "PLAYSTATION 3",
     "descripcion": "PS3 250Gb Super Slim con un control, 3 juegos Fisicos y 16 Digitales",
     "fecha": "",
-    "precioSugerido": "$180.000",
-    "precioVenta": "$130.000",
-    "imagen": "img/PLAYSTATION 3 PS3 250 GB.png"
+    "precioSugerido": "$130.000",
+    "precioVenta": "$100.000",
+    "imagen": "img/PLAYSTATION-3-PS3-250-GB.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": "2026-06-07"
   },
   {
     "id": 2,
-    "titulo": "Televisor Tophouse 55\" 4K Smart TV",
-    "descripcion": "Cuenta con wi-fi y puerto de red. Posee 4 puertos HDMI. Equipado con conexión USB. Incluye control remoto. Modelo: UDL50MP668LN",
-    "fecha": "Se entrega después del 15 Agosto",
+    "titulo": "Televisor Tophouse 55\" 4K /udl50mp668ln",
+    "descripcion": "Cuenta con wi-fi y puerto de red. Posee 4 puertos HDMI. Equipado con conexión USB. Incluye control remoto.",
+    "fecha": "Se entrega despues del 15 Agosto",
     "precioSugerido": "$520.000",
     "precioVenta": "$450.000",
-    "imagen": "img/Televisor Tophouse 55.png"
+    "imagen": "img/Televisor-Tophouse-55.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": "2026-06-08"
   },
   {
     "id": 3,
     "titulo": "Impresora de corte Brother ScanNCut SDX225",
     "descripcion": "",
-    "fecha": "Se entrega después del 15 Agosto",
+    "fecha": "Se entrega despues del 15 Agosto",
     "precioSugerido": "$950.000",
-    "precioVenta": "$850.000",
-    "imagen": "img/impresora de corte.png"
+    "precioVenta": "$900.000",
+    "imagen": "img/impresora-de-corte.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": "2026-06-08"
   },
   {
     "id": 4,
+    "titulo": "Lavadora Whirlpool 6th Sense Inverter 8.5kg",
+    "descripcion": "Voltaje: 220V\nCarga frontal.\nIncluye 10 programas de lavado.\nDimensiones: 59.5cm de ancho x 85cm de alto x 61cm de profundidad.\nApto para lavar con agua a diversas temperatura",
+    "fecha": "",
+    "precioSugerido": "$650.000",
+    "precioVenta": "$550.000",
+    "imagen": "img/Lavaropa.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": "2026-06-11"
+  },
+  {
+    "id": 5,
     "titulo": "Exprimidor Kansai",
     "descripcion": "",
     "fecha": "",
     "precioSugerido": "$25.000",
     "precioVenta": "$25.000",
-    "imagen": "img/Exprimidor Kansa.png"
+    "imagen": "img/Exprimidor-Kansa.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": "2026-06-07"
   },
   {
-    "id": 5,
+    "id": 6,
     "titulo": "Tostadora Kansai T386",
     "descripcion": "",
     "fecha": "",
     "precioSugerido": "$25.000",
     "precioVenta": "$25.000",
-    "imagen": "img/Tostadora.png"
-  },
-  {
-    "id": 6,
-    "titulo": "Cafetera SL-CM9402",
-    "descripcion": "",
-    "fecha": "Se entrega después del 15 Agosto",
-    "precioSugerido": "$28.000",
-    "precioVenta": "$25.000",
-    "imagen": "img/cafetera.png"
+    "imagen": "img/Tostadora.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": "2026-06-07"
   },
   {
     "id": 7,
-    "titulo": "Pochoclera Ultracomb PO-2700",
+    "titulo": "Cafetera SL-CM9402",
     "descripcion": "",
     "fecha": "",
-    "vendido": true,
-    "precioSugerido": "$22.000",
+    "precioSugerido": "$28.000",
     "precioVenta": "$25.000",
-    "imagen": "img/Pochoclera Ultracomb.png"
+    "imagen": "img/cafetera.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": "2026-06-07"
   },
   {
     "id": 8,
+    "titulo": "Pochoclera Ultracomb PO-2700",
+    "descripcion": "",
+    "fecha": "",
+    "precioSugerido": "$22.000",
+    "precioVenta": "$25.000",
+    "imagen": "img/Pochoclera-Ultracomb.png",
+    "categoria": "",
+    "vendido": true,
+    "nuevo": ""
+  },
+  {
+    "id": 9,
     "titulo": "Molinera de café M-1",
     "descripcion": "",
     "fecha": "",
     "precioSugerido": "$18.000",
-    "precioVenta": "$15.000",
+    "precioVenta": "$18.000",
     "imagen": "img/Molinera.png",
-    "vendido": true
+    "categoria": "",
+    "vendido": true,
+    "nuevo": ""
   },
   {
-    "id": 9,
+    "id": 10,
     "titulo": "Cabina de Uñas UV Led Professional SUN 5 48W",
     "descripcion": "",
     "fecha": "",
     "precioSugerido": "$18.000",
-    "precioVenta": "$18.000",
-    "imagen": "img/Cabina de Uñas  UV Led.png"
+    "precioVenta": "$20.000",
+    "imagen": "img/Cabina-de-Uñas--UV-Led.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": "2026-06-07"
   },
   {
-    "id": 10,
+    "id": 11,
     "titulo": "Modulo Rack L Biblioteca Mueble Tv Modular Living Comedor",
     "descripcion": "",
     "fecha": "",
     "precioSugerido": "$50.000",
     "precioVenta": "$50.000",
-    "imagen": "img/Mueble en L.png"
-  },
-  {
-    "id": 11,
-    "titulo": "Máquina giratoria resina tumbler doble",
-    "descripcion": "Maquina giratoria para trabajos con resina. Ideal para decorar tazas. Mates. Vasos. Termos. Etc. Cuanta con 2 motores de 4 a 5 vueltas por minuto, eso le da tiempo a la resina que se vaya secando uniformemente.",
-    "fecha": "",
-    "precioSugerido": "$70.000",
-    "precioVenta": "$50.000",
-    "imagen": "img/Maquina giratoria doble tumbler.png"
+    "imagen": "img/Mueble-en-L.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": "2026-06-07"
   },
   {
     "id": 12,
-    "titulo": "Barra Desayunador + 2 Banquetas",
-    "descripcion": "Viene con 2 banquetas de regalo.",
+    "titulo": "Máquina giratoria resina tumbler doble",
+    "descripcion": "Maquina giratoria para trabajos con resina. Ideal para decorar tazas. Mates. Vasos. Termos. Etc. Cuanta con 2 motores de 4 a 5 vueltas por minuto, eso le da tiempo a la resina que se valla secando uniformemente.",
     "fecha": "",
-    "precioSugerido": "$55.000",
+    "precioSugerido": "$70.000",
     "precioVenta": "$50.000",
-    "imagen": "img/desayunador.png"
+    "imagen": "img/Maquina-giratoria-doble-tumbler.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": "2026-06-07"
   },
   {
     "id": 13,
-    "titulo": "Espejo x2",
-    "descripcion": "uno Espejo Rectangular Para Puerta O Pared 120x30 Cm Marco Negro y otro marco blanco sin ganchos",
+    "titulo": "Barra Desayunador + 2 Banquetas",
+    "descripcion": "",
     "fecha": "",
     "precioSugerido": "$55.000",
-    "precioVenta": "$40.000",
-    "imagen": "img/espejos.png"
+    "precioVenta": "$150.000",
+    "imagen": "img/desayunador.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": "2026-06-08"
   },
   {
     "id": 14,
+    "titulo": "Espejo x2",
+    "descripcion": "Uno Rectangular Para Puerta O Pared 120x30 Cm Marco Negro, el otro marco blanco sin ganchos",
+    "fecha": "",
+    "precioSugerido": "$55.000",
+    "precioVenta": "$50.000",
+    "imagen": "img/espejos.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": "2026-06-07"
+  },
+  {
+    "id": 15,
     "titulo": "Aros de luz x2",
     "descripcion": "uno Aro De Luz Led Con Trípode Con Soporte P/ El Celular 10 Pulga otro Anillo De Luz Led De 26cm Para Selfies, Soporte De Escritorio",
     "fecha": "",
     "precioSugerido": "$60.000",
-    "precioVenta": "$35.000",
-    "imagen": "img/Aros de luces.png"
+    "precioVenta": "$25.000",
+    "imagen": "img/Aros-de-luces.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": ""
   },
   {
-    "id": 15,
+    "id": 16,
     "titulo": "Biblioteca Nordica Zig Zag",
     "descripcion": "De Pino en crudo sin pintar medidas 80 cmx 25 cm x 180 cm Aprox",
     "fecha": "",
     "precioSugerido": "$40.000",
-    "precioVenta": "$40.000",
-    "imagen": "img/Biblioteca Zigzag.png"
+    "precioVenta": "$50.000",
+    "imagen": "img/Biblioteca-Zigzag.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": "2026-06-08"
   },
   {
-    "id": 16,
+    "id": 17,
     "titulo": "Ventilador 3 En 1 Tivoli",
     "descripcion": "18 Pulgadas Con 5 Palas Estructura Blanco Diámetro 45 cm Material de las aspas Plástico",
     "fecha": "",
     "precioSugerido": "$38.000",
     "precioVenta": "$35.000",
-    "imagen": "img/ventilador 3 En 1 Tivoli 18 Pulgadas Con 5 Palas Estructura Blanco.png"
+    "imagen": "img/ventilador-3-En-1-Tivoli-18-Pulgadas-Con-5-Palas-Estructura-Blanco.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": ""
   },
   {
-    "id": 17,
+    "id": 18,
     "titulo": "Ventilador3 En 1",
     "descripcion": "Kanji Kjh-fh1209 Con 3 Palas Metal 18",
     "fecha": "",
     "precioSugerido": "$18.000",
     "precioVenta": "$15.000",
-    "imagen": "img/3 En 1 Kanji Kjh-fh1209 Ventilador Con 3 Palas Metal.png"
+    "imagen": "img/3-En-1-Kanji-Kjh-fh1209-Ventilador-Con-3-Palas-Metal.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": ""
   },
   {
-    "id": 18,
+    "id": 19,
     "titulo": "Soporte para TV",
     "descripcion": "20\" a 60\"Brazo Articulado Extensible",
     "fecha": "",
     "precioSugerido": "$12.000",
     "precioVenta": "$12.000",
-    "imagen": "img/Base de tv.png",
-    "vendido": true
-  },
-  {
-    "id": 19,
-    "titulo": "Laminadora frío/calor",
-    "descripcion": "",
-    "fecha": "Se entrega después del 15 Agosto",
-    "precioSugerido": "$45.000",
-    "precioVenta": "$40.000",
-    "imagen": "img/LAMINADORA.png"
+    "imagen": "img/Base-de-tv.png",
+    "categoria": "",
+    "vendido": true,
+    "nuevo": ""
   },
   {
     "id": 20,
+    "titulo": "Laminadora frío/calor",
+    "descripcion": "",
+    "fecha": "Se entrega despues del 15 Agosto",
+    "precioSugerido": "$45.000",
+    "precioVenta": "$40.000",
+    "imagen": "img/LAMINADORA.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": "2026-06-08"
+  },
+  {
+    "id": 21,
     "titulo": "Guillotina Cizalla A4 Papel Metalica Palanca Manual 30x25cm",
     "descripcion": "",
     "fecha": "",
     "precioSugerido": "$28.000",
     "precioVenta": "$25.000",
-    "imagen": "img/Guillotina Cizalla A4.png"
+    "imagen": "img/Guillotina-Cizalla-A4.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": "2026-06-08"
   },
   {
-    "id": 21,
+    "id": 22,
     "titulo": "Bandejas con forma  para decoración de fiestas",
     "descripcion": "",
     "fecha": "",
     "precioSugerido": "",
     "precioVenta": "$30.000",
-    "imagen": "img/Bandejas para decoracion de fiesta.png",
-    "vendido": true
+    "imagen": "img/Bandejas-para-decoracion-de-fiesta.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": ""
   },
   {
-    "id": 22,
+    "id": 23,
     "titulo": "Carro De Almacenamiento Móvil  3 Niveles Metal Gris",
     "descripcion": "",
     "fecha": "",
     "precioSugerido": "",
     "precioVenta": "$70.000",
-    "imagen": "img/Carro De Almacenamiento.png"
+    "imagen": "img/Carro-De-Almacenamiento.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": ""
   },
   {
-    "id": 23,
+    "id": 24,
     "titulo": "Cortador Calador Telgopor Con Regla Y C/circulos",
     "descripcion": "",
     "fecha": "",
     "precioSugerido": "",
     "precioVenta": "$50.000",
-    "imagen": "img/Cortador Calador Telgopor Con Regla Y Ccirculos Micorthi.png"
+    "imagen": "img/Cortador-Calador-Telgopor-Con-Regla-Y-Ccirculos-Micorthi.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": ""
   },
   {
-    "id": 24,
-    "titulo": "Molde De Silicona variados",
+    "id": 25,
+    "titulo": "Molde de silicona variados",
     "descripcion": "",
     "fecha": "",
     "precioSugerido": "",
     "precioVenta": "$50.000",
-    "imagen": "img/Moldes de silicona.png"
+    "imagen": "img/Moldes-de-silicona.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": ""
   },
   {
-    "id": 25,
+    "id": 26,
     "titulo": "Caja variada de cortantes de  galletas mas 20 y Set De Stamp",
     "descripcion": "",
     "fecha": "",
     "precioSugerido": "",
     "precioVenta": "$50.000",
-    "imagen": "img/Cortantes variados de galletas.png"
+    "imagen": "img/Cortantes-variados-de-galletas.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": ""
   },
   {
-    "id": 26,
+    "id": 27,
     "titulo": "Acetato y bolsas mangas  descartables repostería",
     "descripcion": "",
     "fecha": "",
     "precioSugerido": "",
     "precioVenta": "$15.000",
-    "imagen": "img/acetato de reposteria y manga desechable de reposteria.png"
+    "imagen": "img/acetato-de-reposteria-y-manga-desechable-de-reposteria.png",
+    "categoria": "",
+    "vendido": true,
+    "nuevo": ""
   },
   {
-    "id": 27,
+    "id": 28,
     "titulo": "Caja de varias modelos de placas",
     "descripcion": "",
     "fecha": "",
     "precioSugerido": "",
-    "precioVenta": "$ 15,000",
-    "imagen": "img/Caja de varias modelos de placas.png"
+    "precioVenta": "$15.000",
+    "imagen": "img/Caja-de-varias-modelos-de-placas.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": ""
   },
   {
-    "id": 28,
-    "titulo": "Termometro Digital LCD Para Cocina",
+    "id": 29,
+    "titulo": "Termometro Digital Lcd Para Cocina",
     "descripcion": "",
     "fecha": "",
     "precioSugerido": "",
     "precioVenta": "$6.000",
-    "imagen": "img/Termometro Digital Lcd Para Cocina.png"
+    "imagen": "img/Termometro-Digital-Lcd-Para-Cocina.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": ""
   },
   {
-    "id": 29,
+    "id": 30,
     "titulo": "Set Kit Bowl ensaladera de Acero",
     "descripcion": "",
     "fecha": "",
     "precioSugerido": "",
     "precioVenta": "$15.000",
-    "imagen": "img/set de bolw de aluminio.png"
+    "imagen": "img/set-de-bolw-de-aluminio.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": ""
   },
   {
-    "id": 30,
+    "id": 31,
     "titulo": "Accesorios Repostería",
     "descripcion": "",
     "fecha": "",
     "precioSugerido": "",
     "precioVenta": "$12.000",
-    "imagen": "img/Accesorios de reposteria.png"
+    "imagen": "img/Accesorios-de-reposteria.png",
+    "categoria": "",
+    "vendido": true,
+    "nuevo": ""
   },
   {
-    "id": 31,
+    "id": 32,
     "titulo": "Set de 4 Moldes Savarini Chico",
     "descripcion": "",
     "fecha": "",
     "precioSugerido": "",
-    "precioVenta": "$20.000",
-    "imagen": "img/Set de 4 moldes Savarini.png"
+    "precioVenta": "$25.000",
+    "imagen": "img/Set-de-4-moldes-Savarini.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": ""
   },
   {
-    "id": 32,
+    "id": 33,
     "titulo": "Molde para biscochuelo cuadrado Alta n1 Dona Clara 9x21x21",
     "descripcion": "",
     "fecha": "",
     "precioSugerido": "",
     "precioVenta": "$25.000",
-    "imagen": "img/molde cuadrado.png"
+    "imagen": "img/molde-cuadrado.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": ""
   },
   {
-    "id": 33,
+    "id": 34,
     "titulo": "Molde aro cintura para biscochuelo de 24 y 20cm",
     "descripcion": "",
     "fecha": "",
     "precioSugerido": "",
-    "precioVenta": "$12.000",
-    "imagen": "img/set de aros.png"
+    "precioVenta": "$15.000",
+    "imagen": "img/set-de-aros.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": ""
   },
   {
-    "id": 34,
+    "id": 35,
     "titulo": "Cortador de Tortas en capas",
     "descripcion": "",
     "fecha": "",
     "precioSugerido": "",
     "precioVenta": "$7.000",
-    "imagen": "img/cortador de bizcochos.png",
-    "vendido": true
+    "imagen": "img/cortador-de-bizcochos.png",
+    "categoria": "",
+    "vendido": true,
+    "nuevo": ""
   },
   {
-    "id": 35,
+    "id": 36,
     "titulo": "Set de Moldes Pastafrola Rizada 20cm, 12cm y 7cm",
     "descripcion": "",
     "fecha": "",
     "precioSugerido": "",
     "precioVenta": "$25.000",
-    "imagen": "img/Set de moldes pastaflora risada.png",
-    "vendido": true
+    "imagen": "img/Set-de-moldes-pastaflora-risada.png",
+    "categoria": "",
+    "vendido": true,
+    "nuevo": ""
   },
   {
-    "id": 36,
+    "id": 37,
     "titulo": "Molde para biscocho redondo 26cm, 20 y 18cm",
     "descripcion": "",
     "fecha": "",
     "precioSugerido": "",
     "precioVenta": "$15.000",
-    "imagen": "img/Set de moldes 26-20-18.png"
+    "imagen": "img/Set-de-moldes-26-20-18.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": ""
   },
   {
-    "id": 37,
+    "id": 38,
     "titulo": "Molde para biscocho redondo 27cm, 20 y 14cm",
     "descripcion": "",
     "fecha": "",
     "precioSugerido": "",
     "precioVenta": "$15.000",
-    "imagen": "img/set de moldes 27-20-14.png"
+    "imagen": "img/set-de-moldes-27-20-14.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": ""
   },
   {
-    "id": 38,
+    "id": 39,
     "titulo": "Molde para biscocho redondo 20cm, 16 y 10cm",
     "descripcion": "",
     "fecha": "",
     "precioSugerido": "",
     "precioVenta": "$15.000",
-    "imagen": "img/Set de moldes 20-16-10.png"
+    "imagen": "img/Set-de-moldes-20-16-10.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": ""
   },
   {
-    "id": 39,
+    "id": 40,
     "titulo": "Molde para biscocho redondo 20cm, 16 y 14cm",
     "descripcion": "",
     "fecha": "",
     "precioSugerido": "",
     "precioVenta": "$15.000",
-    "imagen": "img/Set de moldes 20-16-1.png"
+    "imagen": "img/Set-de-moldes-20-16-1.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": ""
   },
   {
-    "id": 40,
+    "id": 41,
     "titulo": "Balanza digital de 10k de cocina",
     "descripcion": "",
     "fecha": "",
     "precioSugerido": "",
     "precioVenta": "$10.000",
-    "imagen": "img/Balanza digital de cocina 10kg.png",
-    "vendido": true
+    "imagen": "img/Balanza-digital-de-cocina-10kg.png",
+    "categoria": "",
+    "vendido": true,
+    "nuevo": ""
   },
   {
-    "id": 41,
+    "id": 42,
     "titulo": "Moldes para muffin 2 bandejas de 12",
     "descripcion": "",
     "fecha": "",
     "precioSugerido": "",
     "precioVenta": "$10.000",
-    "imagen": "img/Moldes para muffin.png"
+    "imagen": "img/Moldes-para-muffin.png",
+    "categoria": "",
+    "vendido": true,
+    "nuevo": ""
   },
   {
-    "id": 42,
+    "id": 43,
     "titulo": "Bicicleta Olmo Cosmo Bold Rodado 16 Rueditas Infantil Negra",
     "descripcion": "",
     "fecha": "",
     "precioSugerido": "$85.000",
     "precioVenta": "$80.000",
-    "imagen": "img/Bicicleta Olmo cosmo bol rodado 16.png"
+    "imagen": "img/Bicicleta-Olmo-cosmo-bol-rodado-16.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": "2026-06-08"
   },
   {
-    "id": 43,
+    "id": 44,
     "titulo": "Sleeping bag/ Bolsa De Dormir Spinit Montana Color Azul Con Negro Medidas (desplegada): 210 x 80 x 50 cm",
     "descripcion": "",
     "fecha": "",
     "precioSugerido": "$85.000",
     "precioVenta": "$60.000",
-    "imagen": "img/Bolsa De Dormir Spinit Montana .png"
+    "imagen": "img/Bolsa-De-Dormir-Spinit-Montana-.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": ""
   },
   {
-    "id": 44,
+    "id": 45,
     "titulo": "Kit mancuernas + barra + discos",
     "descripcion": "",
     "fecha": "",
     "precioSugerido": "$55.000",
     "precioVenta": "$45.000",
-    "imagen": "img/Set de pesas.png",
-    "vendido": true
+    "imagen": "img/Set-de-pesas.png",
+    "categoria": "",
+    "vendido": true,
+    "nuevo": ""
   },
   {
-    "id": 45,
+    "id": 46,
     "titulo": "TRX Banda suspensión premium",
     "descripcion": "",
     "fecha": "",
     "precioSugerido": "$40.000",
     "precioVenta": "$35.000",
-    "imagen": "img/elastica TRX.png",
-    "vendido": true
+    "imagen": "img/elastica-TRX.png",
+    "categoria": "",
+    "vendido": true,
+    "nuevo": ""
   },
   {
-    "id": 46,
+    "id": 47,
     "titulo": "Bicicleta SPX",
     "descripcion": "",
     "fecha": "",
     "precioSugerido": "$350.000",
     "precioVenta": "$300.000",
-    "imagen": "img/Bicicleta.png"
+    "imagen": "img/Bicicleta.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": "2026-06-08"
   },
   {
-    "id": 47,
+    "id": 48,
     "titulo": "Nebulizador a Pistón N26 Piuvento SILFAB",
     "descripcion": "- 2 Funciones Nebulizador y Aspirador. - NO Trae accesorio aspirador pipeta. - ACCESORIOS INCLUIDOS. - Con Kit Completo de Nebulización - Mascara para Niños / Mascara para Adultos - Adaptador Bucal - Manguera Plástica - Pipeta Nebulizadora - Función Nebulizar Salida de Aire) - Función Aspirador (Filtro)",
     "fecha": "",
     "precioSugerido": "$65.000",
     "precioVenta": "$60.000",
-    "imagen": "img/Nebulizador.png"
+    "imagen": "img/Nebulizador.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": ""
   },
   {
-    "id": 48,
+    "id": 49,
     "titulo": "Inflador De Globos Electrico 600w 2 Boquillas",
     "descripcion": "",
     "fecha": "",
     "precioSugerido": "$22.000",
     "precioVenta": "$20.000",
-    "imagen": "img/Inflador De Globos Electrico.png",
-    "vendido": true
+    "imagen": "img/Inflador-De-Globos-Electrico.png",
+    "categoria": "",
+    "vendido": true,
+    "nuevo": ""
   },
   {
-    "id": 49,
+    "id": 50,
+    "titulo": "Taladro Atornillador Klatter 14v Inalambrico 10mm",
+    "descripcion": "ESPECIFICACIÓN TÉCNICA DEL TALADRO:\n- Voltaje nominal: 14,4Vcc\n- Velocidad en vacío: 0-400/0-1500rpm\n- Dimensiones: Altura 23.5cm / Ancho 7.5cm\n- Par máx.: 25Nm\n- Capacidad del mandril: 0,8 a 10mm\n- Configuración de par: 18+Perforación\n- No es Taladro Percutor\n\nESPECIFICACIÓN TÉCNICA DE LA BATERÍA:\n- Batería: ion-litio 14,4Vcc 1300mAh\n- Tiempo duración de carga: 3-5 horas (no es de trabajo continuo)\n- La batería se carga en aproximadamente 2 horas.\n- Entrada del adaptador de la fuente de alimentación externa: 100-240Vca 50-60Hz\n- Salida del adaptador de la fuente de alimentación externa: 18Vcc 400mA\n\nADEMÁS INCLUYE:\n- 6 brocas CR-V de 25 mm PH1/PH2/SL5/SL6/PZ1/PZ2\n- 6 puntas de atornillar 1.5mm,2mm,3mm,4mm,5mm,6mm\n- 1 extensor de atornillar\n- 1 fuente de alimentación",
+    "fecha": "",
+    "precioSugerido": "$90.000",
+    "precioVenta": "$80.000",
+    "imagen": "img/taladro-.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": "2026-06-11"
+  },
+  {
+    "id": 51,
+    "titulo": "Hidrolavadora Philco Hi1101P 1100w 90 Bar Color Verde",
+    "descripcion": "Frecuencia: 50 Hz/60 Hz.\nVoltaje: 220V.\nApta para trabajar con agua a una temperatura máxima de 50 °C y así dejar tus superficies relucientes.\nAccesorios incluidos",
+    "fecha": "",
+    "precioSugerido": "$90.000",
+    "precioVenta": "$80.000",
+    "imagen": "img/Hidrolavadora.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": "2026-06-11"
+  },
+  {
+    "id": 52,
+    "titulo": "Minitorno torno",
+    "descripcion": "Torno mini de 40 accesorios KTGF-40\nCaracterísticas\nAlimentación: 220V AC\nVelocidad Variable de 10000 a 32000 rpm\nPotencia: 135W",
+    "fecha": "",
+    "precioSugerido": "$60.000",
+    "precioVenta": "$35.000",
+    "imagen": "img/Torno-multiuso.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": "2026-06-11"
+  },
+  {
+    "id": 53,
+    "titulo": "Pileta Pelopincho Mod. 1020",
+    "descripcion": "1000 litro  tamaño 145 X 185 X 40",
+    "fecha": "",
+    "precioSugerido": "$75.000",
+    "precioVenta": "$80.000",
+    "imagen": "img/Pelo-pincho.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": "2026-06-11"
+  },
+  {
+    "id": 54,
     "titulo": "Vestidos de fiesta x2 ($35k c/u)",
     "descripcion": "",
     "fecha": "",
     "precioSugerido": "$70.000",
     "precioVenta": "$70.000",
-    "imagen": "img/Vestidos de fiestas.png"
+    "imagen": "img/Vestidos-de-fiestas.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": ""
   },
   {
-    "id": 50,
+    "id": 55,
     "titulo": "Carteras",
     "descripcion": "",
     "fecha": "",
     "precioSugerido": "",
-    "precioVenta": "$ 35.000",
-    "imagen": "img/carteras.png"
+    "precioVenta": "$ 35000",
+    "imagen": "img/carteras.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": ""
   },
   {
-    "id": 51,
+    "id": 56,
     "titulo": "Chaqueta DC Shoes",
-    "descripcion": "ski/snowboard talla XL mujer",
+    "descripcion": "Ski/Snowboard \nTalle XL mujer",
     "fecha": "",
     "precioSugerido": "",
-    "precioVenta": "$ 40.000",
-    "imagen": "img/Chaqueta DC .png"
+    "precioVenta": "$ 40000",
+    "imagen": "img/Chaqueta-DC.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": ""
   },
   {
-    "id": 52,
+    "id": 57,
     "titulo": "Tapado Saco de mujer",
     "descripcion": "Talle L",
     "fecha": "",
     "precioSugerido": "",
     "precioVenta": "$30.000",
-    "imagen": "img/tapado.png"
+    "imagen": "img/tapado.png",
+    "categoria": "",
+    "vendido": false,
+    "nuevo": ""
   }
 ]
