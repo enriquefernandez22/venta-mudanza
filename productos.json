@@ -236,8 +236,8 @@
     "precioVenta": "$40.000",
     "imagen": "img/LAMINADORA.png",
     "categoria": "",
-    "vendido": false,
-    "nuevo": "2026-06-08"
+    "vendido": true,
+    "nuevo": ""
   },
   {
     "id": 21,
