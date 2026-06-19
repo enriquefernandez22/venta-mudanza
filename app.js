@@ -7,14 +7,20 @@ document.addEventListener("DOMContentLoaded", () => {
     
     // Creamos la barra de filtros dinámicamente con estilos que combinan con tu CSS
     const barraFiltros = document.createElement("div");
-    barraFiltros.style = "text-align: center; margin-bottom: 2rem; display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; padding: 0 1rem;";
-    
+    barraFiltros.style = "text-align: center; margin-bottom: 1rem; display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; padding: 0 1rem;";
+
+    // Creamos la barra de categorías (se llena sola con las categorías del JSON)
+    const barraCategorias = document.createElement("div");
+    barraCategorias.style = "text-align: center; margin-bottom: 2rem; display: flex; justify-content: center; align-items: center; gap: 0.6rem; flex-wrap: wrap; padding: 0 1rem;";
+
     // Insertamos el contador y los filtros justo arriba del contenedor de productos
     contenedor.parentNode.insertBefore(contadorElemento, contenedor);
     contenedor.parentNode.insertBefore(barraFiltros, contenedor);
+    contenedor.parentNode.insertBefore(barraCategorias, contenedor);
 
     let todosLosProductos = [];
     let filtroActivo = "todos";
+    let categoriaActiva = "todas";
 
     function slugifySegment(value) {
         return value
@@ -65,6 +71,11 @@ document.addEventListener("DOMContentLoaded", () => {
             contadorElemento.textContent = `Encontrados: ${productosFiltrados.length} artículos nuevos`;
         } else if (filtroActivo === "disponibles") {
             contadorElemento.textContent = `Disponibles: ${productosFiltrados.length} artículos sin vender`;
+        }
+
+        // Si hay una categoría seleccionada, lo aclaramos en el contador
+        if (categoriaActiva !== "todas") {
+            contadorElemento.textContent += ` · ${categoriaActiva}`;
         }
 
         productosFiltrados.forEach(producto => {
@@ -171,29 +182,88 @@ document.addEventListener("DOMContentLoaded", () => {
             boton.addEventListener("click", () => {
                 filtroActivo = btn.id;
                 crearBotonesFiltros(); // Redibujar botones para actualizar el estado activo
-                
-                let productosFiltrados = [...todosLosProductos];
-                if (filtroActivo === "nuevos") {
-                    productosFiltrados = productosFiltrados.filter(p => (p.nuevo || "") !== "");
-                } else if (filtroActivo === "disponibles") {
-                    productosFiltrados = productosFiltrados.filter(p => p.vendido !== true && p.estado !== "vendido");
-                }
-                
-                renderizarProductos(productosFiltrados);
+                aplicarFiltros();
             });
 
             barraFiltros.appendChild(boton);
         });
     }
 
+    // Aplica AMBOS filtros a la vez: estado (todos/nuevos/disponibles) + categoría
+    function aplicarFiltros() {
+        let productosFiltrados = [...todosLosProductos];
+
+        if (filtroActivo === "nuevos") {
+            productosFiltrados = productosFiltrados.filter(p => (p.nuevo || "") !== "");
+        } else if (filtroActivo === "disponibles") {
+            productosFiltrados = productosFiltrados.filter(p => p.vendido !== true && p.estado !== "vendido");
+        }
+
+        if (categoriaActiva !== "todas") {
+            productosFiltrados = productosFiltrados.filter(p => (p.categoria || "") === categoriaActiva);
+        }
+
+        renderizarProductos(productosFiltrados);
+    }
+
+    // Crea el dropdown de categorías a partir de las categorías presentes en el JSON
+    function crearBotonesCategorias() {
+        // Sacamos las categorías únicas y las ordenamos alfabéticamente
+        const categorias = unique(todosLosProductos.map(p => p.categoria))
+            .sort((a, b) => a.localeCompare(b, "es"));
+
+        barraCategorias.innerHTML = "";
+
+        const etiqueta = document.createElement("label");
+        etiqueta.textContent = "Categoría:";
+        etiqueta.htmlFor = "select-categoria";
+        etiqueta.style = "font-weight: 600; color: #1A2530;";
+
+        const select = document.createElement("select");
+        select.id = "select-categoria";
+        select.style = "padding: 0.55rem 2.2rem 0.55rem 1rem; border-radius: 20px; font-size: 0.95rem; font-weight: 600; color: #1A2530; background-color: #ffffff; border: 2px solid #1A2530; cursor: pointer; outline: none;";
+
+        // Opción inicial + una opción por cada categoría
+        const opciones = [{ id: "todas", texto: "Todas las categorías" }]
+            .concat(categorias.map(c => ({ id: c, texto: c })));
+
+        opciones.forEach(opcion => {
+            const option = document.createElement("option");
+            option.value = opcion.id;
+            option.textContent = opcion.texto;
+            if (categoriaActiva === opcion.id) option.selected = true;
+            select.appendChild(option);
+        });
+
+        select.addEventListener("change", () => {
+            categoriaActiva = select.value;
+            aplicarFiltros();
+        });
+
+        barraCategorias.appendChild(etiqueta);
+        barraCategorias.appendChild(select);
+    }
+
     fetch("productos.json")
         .then(respuesta => respuesta.json())
         .then(productos => {
-            // 1. Invertimos para que lo último del Excel quede arriba
+            // 1. Invertimos para que lo último del Excel quede arriba (orden base para los empates)
             productos.reverse();
 
-            // 2. Orden inicial: Forzar que los que tienen datos en "nuevo" vayan primero en la carga inicial
+            // 2. Ordenamos por prioridad. El sort de JS es estable, así que los empates
+            //    conservan el orden base de arriba.
             productos.sort((a, b) => {
+                // a) Los vendidos siempre van al final
+                const aVendido = a.vendido === true || a.estado === "vendido";
+                const bVendido = b.vendido === true || b.estado === "vendido";
+                if (aVendido !== bVendido) return aVendido ? 1 : -1;
+
+                // b) Número de prioridad: más chico = más arriba. Vacío/0 = sin prioridad (va después)
+                const aPrioridad = Number(a.prioridad) || Infinity;
+                const bPrioridad = Number(b.prioridad) || Infinity;
+                if (aPrioridad !== bPrioridad) return aPrioridad - bPrioridad;
+
+                // c) Desempate: los más recientes (con fecha en "nuevo") primero
                 const aNuevo = a.nuevo || "";
                 const bNuevo = b.nuevo || "";
                 if (aNuevo !== "" && bNuevo === "") return -1;
@@ -205,6 +275,7 @@ document.addEventListener("DOMContentLoaded", () => {
             
             // Inicializar interfaz
             crearBotonesFiltros();
+            crearBotonesCategorias();
             renderizarProductos(todosLosProductos);
         })
         .catch(error => {
