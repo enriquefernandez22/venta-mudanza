@@ -1,26 +1,33 @@
 document.addEventListener("DOMContentLoaded", () => {
     const contenedor = document.getElementById("contenedor-productos");
+    const NEW_PRODUCT_DAYS = 7;
 
     // Creamos el elemento del contador dinámicamente
     const contadorElemento = document.createElement("p");
-    contadorElemento.style = "text-align: center; font-size: 1.2rem; font-weight: 600; color: #1A2530; margin-bottom: 1.5rem;";
+    contadorElemento.className = "catalog-counter";
     
     // Creamos la barra de filtros dinámicamente con estilos que combinan con tu CSS
     const barraFiltros = document.createElement("div");
-    barraFiltros.style = "text-align: center; margin-bottom: 1rem; display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; padding: 0 1rem;";
+    barraFiltros.className = "filters-bar";
+
+    // Creamos la barra de búsqueda por texto
+    const barraBusqueda = document.createElement("div");
+    barraBusqueda.className = "search-bar";
 
     // Creamos la barra de categorías (se llena sola con las categorías del JSON)
     const barraCategorias = document.createElement("div");
-    barraCategorias.style = "text-align: center; margin-bottom: 2rem; display: flex; justify-content: center; align-items: center; gap: 0.6rem; flex-wrap: wrap; padding: 0 1rem;";
+    barraCategorias.className = "category-bar";
 
     // Insertamos el contador y los filtros justo arriba del contenedor de productos
     contenedor.parentNode.insertBefore(contadorElemento, contenedor);
+    contenedor.parentNode.insertBefore(barraBusqueda, contenedor);
     contenedor.parentNode.insertBefore(barraFiltros, contenedor);
     contenedor.parentNode.insertBefore(barraCategorias, contenedor);
 
     let todosLosProductos = [];
     let filtroActivo = "todos";
     let categoriaActiva = "todas";
+    let textoBusqueda = "";
 
     function slugifySegment(value) {
         return value
@@ -40,6 +47,36 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function unique(values) {
         return [...new Set(values.filter(Boolean))];
+    }
+
+    function normalizeText(value) {
+        return String(value || "")
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .toLowerCase()
+            .trim();
+    }
+
+    function parsePriceToNumber(priceValue) {
+        if (typeof priceValue === "number") return priceValue;
+        if (!priceValue) return 0;
+
+        return Number(String(priceValue).replace(/[^\d]/g, "")) || 0;
+    }
+
+    function isSoldProduct(producto) {
+        return producto.vendido === true || producto.estado === "vendido";
+    }
+
+    function isRecentProduct(producto) {
+        if (!producto.nuevo) return false;
+
+        const fechaProducto = new Date(producto.nuevo).getTime();
+        if (Number.isNaN(fechaProducto)) return false;
+
+        const fechaActual = new Date().getTime();
+        const diasDiferencia = (fechaActual - fechaProducto) / (1000 * 60 * 60 * 24);
+        return diasDiferencia >= 0 && diasDiferencia <= NEW_PRODUCT_DAYS;
     }
 
     function buildImageSources(imagePath) {
@@ -78,9 +115,13 @@ document.addEventListener("DOMContentLoaded", () => {
             contadorElemento.textContent += ` · ${categoriaActiva}`;
         }
 
+        if (textoBusqueda) {
+            contadorElemento.textContent += ` · Busqueda: ${textoBusqueda}`;
+        }
+
         productosFiltrados.forEach(producto => {
             const card = document.createElement("article");
-            const isSold = producto.vendido === true || producto.estado === "vendido";
+            const isSold = isSoldProduct(producto);
             card.className = isSold ? "card card-sold" : "card";
 
             const precioSugeridoHtml = producto.precioSugerido
@@ -91,21 +132,11 @@ document.addEventListener("DOMContentLoaded", () => {
                 ? `<p class="date">📅 ${producto.fecha}</p>` 
                 : ``;
 
-            // Calculamos si el producto es reciente (menos de 4 días de antigüedad)
-            let esReciente = false;
-            if (producto.nuevo && producto.nuevo !== "") {
-                const fechaProducto = new Date(producto.nuevo).getTime();
-                const fechaActual = new Date().getTime();
-                // Convertimos la diferencia de milisegundos a días
-                const diasDiferencia = (fechaActual - fechaProducto) / (1000 * 60 * 60 * 24);
-                
-                // Si pasaron 4 días o menos, es reciente
-                esReciente = diasDiferencia <= 2; 
-            }
-            console.log(esReciente, producto.titulo, producto.nuevo);
+            const esReciente = isRecentProduct(producto);
+
             // Etiqueta visual "NUEVO" (solo si es reciente y NO está vendido)
             const badgeNuevo = (esReciente && !isSold)
-                ? `<span style="position: absolute; top: 10px; right: 10px; background: #E65A5A; color: white; padding: 4px 8px; border-radius: 4px; font-size: 0.8rem; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.2); z-index: 2;">¡NUEVO!</span>`
+                ? `<span class="new-badge">¡NUEVO!</span>`
                 : ``;
 
             const telefono = "5491153133329"; 
@@ -116,7 +147,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const encodedFallbacks = encodeURIComponent(JSON.stringify(imagenes));
 
             card.innerHTML = `
-                <div class="image-wrapper" style="position: relative;">
+                <div class="image-wrapper">
                     ${isSold ? '<span class="sold-badge">VENDIDO</span>' : ""}
                     ${badgeNuevo}
                     <img src="${imagenes[0]}" data-fallbacks="${encodedFallbacks}" alt="${producto.titulo}" loading="lazy">
@@ -166,17 +197,11 @@ document.addEventListener("DOMContentLoaded", () => {
         botones.forEach(btn => {
             const boton = document.createElement("button");
             boton.textContent = btn.texto;
-            
-            // Estilos base para los botones
-            boton.style = "padding: 0.6rem 1.2rem; border-radius: 20px; font-weight: 600; cursor: pointer; border: 2px solid #1A2530; transition: all 0.2s ease;";
+            boton.className = "filter-btn";
             
             // Resaltado del botón activo
             if (filtroActivo === btn.id) {
-                boton.style.backgroundColor = "#1A2530";
-                boton.style.color = "#ffffff";
-            } else {
-                boton.style.backgroundColor = "transparent";
-                boton.style.color = "#1A2530";
+                boton.classList.add("is-active");
             }
 
             boton.addEventListener("click", () => {
@@ -189,18 +214,51 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
+    function crearBuscador() {
+        barraBusqueda.innerHTML = "";
+
+        const input = document.createElement("input");
+        input.type = "search";
+        input.className = "search-input";
+        input.placeholder = "Buscar por nombre, categoria o descripcion";
+        input.setAttribute("aria-label", "Buscar productos");
+        input.value = textoBusqueda;
+
+        input.addEventListener("input", () => {
+            textoBusqueda = input.value;
+            aplicarFiltros();
+        });
+
+        barraBusqueda.appendChild(input);
+    }
+
     // Aplica AMBOS filtros a la vez: estado (todos/nuevos/disponibles) + categoría
     function aplicarFiltros() {
         let productosFiltrados = [...todosLosProductos];
 
         if (filtroActivo === "nuevos") {
-            productosFiltrados = productosFiltrados.filter(p => (p.nuevo || "") !== "");
+            productosFiltrados = productosFiltrados.filter(p => isRecentProduct(p) && !isSoldProduct(p));
         } else if (filtroActivo === "disponibles") {
-            productosFiltrados = productosFiltrados.filter(p => p.vendido !== true && p.estado !== "vendido");
+            productosFiltrados = productosFiltrados.filter(p => !isSoldProduct(p));
         }
 
         if (categoriaActiva !== "todas") {
             productosFiltrados = productosFiltrados.filter(p => (p.categoria || "") === categoriaActiva);
+        }
+
+        if (textoBusqueda.trim() !== "") {
+            const termino = normalizeText(textoBusqueda);
+            productosFiltrados = productosFiltrados.filter(producto => {
+                const textoCatalogo = normalizeText([
+                    producto.titulo,
+                    producto.descripcion,
+                    producto.categoria,
+                    producto.precioVenta,
+                    producto.precioSugerido
+                ].join(" "));
+
+                return textoCatalogo.includes(termino);
+            });
         }
 
         renderizarProductos(productosFiltrados);
@@ -217,11 +275,11 @@ document.addEventListener("DOMContentLoaded", () => {
         const etiqueta = document.createElement("label");
         etiqueta.textContent = "Categoría:";
         etiqueta.htmlFor = "select-categoria";
-        etiqueta.style = "font-weight: 600; color: #1A2530;";
+        etiqueta.className = "category-label";
 
         const select = document.createElement("select");
         select.id = "select-categoria";
-        select.style = "padding: 0.55rem 2.2rem 0.55rem 1rem; border-radius: 20px; font-size: 0.95rem; font-weight: 600; color: #1A2530; background-color: #ffffff; border: 2px solid #1A2530; cursor: pointer; outline: none;";
+        select.className = "category-select";
 
         // Opción inicial + una opción por cada categoría
         const opciones = [{ id: "todas", texto: "Todas las categorías" }]
@@ -247,39 +305,31 @@ document.addEventListener("DOMContentLoaded", () => {
     fetch("productos.json")
         .then(respuesta => respuesta.json())
         .then(productos => {
-            // 1. Invertimos para que lo último del Excel quede arriba (orden base para los empates)
-            productos.reverse();
-
-            // 2. Ordenamos por prioridad. El sort de JS es estable, así que los empates
-            //    conservan el orden base de arriba.
+            // Orden recomendado:
+            // 1) Disponibles arriba y vendidos al final
+            // 2) Precio de venta mas alto
             productos.sort((a, b) => {
-                // a) Los vendidos siempre van al final
-                const aVendido = a.vendido === true || a.estado === "vendido";
-                const bVendido = b.vendido === true || b.estado === "vendido";
+                const aVendido = isSoldProduct(a);
+                const bVendido = isSoldProduct(b);
                 if (aVendido !== bVendido) return aVendido ? 1 : -1;
 
-                // b) Número de prioridad: más chico = más arriba. Vacío/0 = sin prioridad (va después)
-                const aPrioridad = Number(a.prioridad) || Infinity;
-                const bPrioridad = Number(b.prioridad) || Infinity;
-                if (aPrioridad !== bPrioridad) return aPrioridad - bPrioridad;
+                const aPrecio = parsePriceToNumber(a.precioVenta);
+                const bPrecio = parsePriceToNumber(b.precioVenta);
+                if (aPrecio !== bPrecio) return bPrecio - aPrecio;
 
-                // c) Desempate: los más recientes (con fecha en "nuevo") primero
-                const aNuevo = a.nuevo || "";
-                const bNuevo = b.nuevo || "";
-                if (aNuevo !== "" && bNuevo === "") return -1;
-                if (aNuevo === "" && bNuevo !== "") return 1;
-                return 0;
+                return Number(b.id || 0) - Number(a.id || 0);
             });
 
             todosLosProductos = productos;
             
             // Inicializar interfaz
+            crearBuscador();
             crearBotonesFiltros();
             crearBotonesCategorias();
             renderizarProductos(todosLosProductos);
         })
         .catch(error => {
             console.error("Error cargando el catálogo:", error);
-            contenedor.innerHTML = "<p style='text-align:center; padding: 2rem;'>Hubo un problema al cargar los artículos. Por favor, recarga la página.</p>";
+            contenedor.innerHTML = "<p class='error-message'>Hubo un problema al cargar los artículos. Por favor, recarga la página.</p>";
         });
 });
