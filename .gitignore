@@ -3,3 +3,6 @@ images/
 .vscode
 .DS_Store
 productos copy.json
+productos.csv
+productos_actualizado.csv
+
