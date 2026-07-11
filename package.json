@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "convert:images": "node scripts/convert-images.mjs",
-    "prioritize:new": "node scripts/prioritize-new-from-images.mjs"
+    "prioritize:new": "node scripts/prioritize-new-from-images.mjs",
+    "export:csv": "node scripts/export-csv.mjs"
   },
   "dependencies": {
     "sharp": "^0.33.5"
