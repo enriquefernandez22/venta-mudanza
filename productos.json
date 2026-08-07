@@ -1077,5 +1077,44 @@
     "prioridad": "",
     "vendido": false,
     "nuevo": "2026-07-10"
+  },
+  {
+    "id": 84,
+    "titulo": "Escritorio En L O Recto Oficina Hogar Con Cajón T3048",
+    "descripcion": "Forma de L. Compuesto de melamina. Un cajón. Profundidad: 60 cm, Altura: 75 cm, Ancho: 135 cm, Largo: 60 cm.",
+    "fecha": "",
+    "precioSugerido": "$120.000",
+    "precioVenta": "$100.000",
+    "imagen": "img/escritorio-grande.jpg",
+    "categoria": "Muebles y Hogar",
+    "prioridad": "",
+    "vendido": false,
+    "nuevo": "2026-08-06"
+  },
+  {
+    "id": 85,
+    "titulo": "Escritorio Practico Sin Tornillos Flast",
+    "descripcion": "Dimensiones: 120 cm de largo, 60 cm de profundidad y 74 cm de altura. Fabricado en melamina blanca, fácil de limpiar. Diseño sin tornillos, ensamblado rápido en 30 segundos. Pesa 39kg.",
+    "fecha": "",
+    "precioSugerido": "$120.000",
+    "precioVenta": "$110.000",
+    "imagen": "img/escritorio-pequeno.jpg",
+    "categoria": "Muebles y Hogar",
+    "prioridad": "",
+    "vendido": false,
+    "nuevo": "2026-08-06"
+  },
+  {
+    "id": 86,
+    "titulo": "PC de Escritorio",
+    "descripcion": "Procesador AMD FX-8350, 32GB de RAM DDR3, Placa de video Radeon RX 480 de 8GB. Excelente para gaming a 1080p y multitarea pesada.",
+    "fecha": "",
+    "precioSugerido": "U$S 390",
+    "precioVenta": "U$S 400",
+    "imagen": "img/pc.jpg",
+    "categoria": "Electrónica",
+    "prioridad": "",
+    "vendido": false,
+    "nuevo": "2026-08-06"
   }
 ]
