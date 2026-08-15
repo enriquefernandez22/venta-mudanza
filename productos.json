@@ -230,7 +230,7 @@
     "imagen": "img/3-En-1-Kanji-Kjh-fh1209-Ventilador-Con-3-Palas-Metal.png",
     "categoria": "Electrodomésticos",
     "prioridad": "",
-    "vendido": false,
+    "vendido": true,
     "nuevo": ""
   },
   {
@@ -869,5 +869,44 @@
     "prioridad": 1,
     "vendido": false,
     "nuevo": "2026-08-14"
+  },
+  {
+    "id": 91,
+    "titulo": "Horno Eléctrico Liliana Grandcook (2400W)",
+    "descripcion": "Modelo A0170. Horno de gran capacidad y altísima potencia (2400W), calienta súper rápido. Excelente estado, incluye rejilla, bandeja y un termómetro interno de regalo para cocciones exactas.",
+    "fecha": "",
+    "precioSugerido": "$90.000",
+    "precioVenta": "$100.000",
+    "imagen": "img/horno-liliana.jpg",
+    "categoria": "Electrodomésticos",
+    "prioridad": 3,
+    "vendido": false,
+    "nuevo": "2026-08-15"
+  },
+  {
+    "id": 92,
+    "titulo": "Heladera Gafa HGF387AFB (375 Litros) - Mod. 2021",
+    "descripcion": "Heladera familiar de gran capacidad (177 cm de alto x 60 cm de ancho). Excelente estado estético y de funcionamiento. Motor impecable, enfría y congela perfecto. Interior completo con cajones, fabricador de hielo (Ice Twister) y luz funcionando. Base y patas sanas.",
+    "fecha": "",
+    "precioSugerido": "$270.000",
+    "precioVenta": "$300.000",
+    "imagen": "img/heladera-gafa.jpg",
+    "categoria": "Electrodomésticos",
+    "prioridad": 2,
+    "vendido": false,
+    "nuevo": "2026-08-15"
+  },
+  {
+    "id": 93,
+    "titulo": "Purificador Hidrolit Senic Out (Solo Carcasa y Accesorios)",
+    "descripcion": "Equipo sobre mesada color blanco. Incluye carcasa, canilla cuello de cisne y válvula derivadora de metal en excelente estado. ATENCIÓN: El cartucho interno ya cumplió su vida útil de 12 meses; se vende a este precio porque requiere que el comprador le coloque un filtro de repuesto nuevo.",
+    "fecha": "",
+    "precioSugerido": "$45.000",
+    "precioVenta": "$50.000",
+    "imagen": "img/filtro-hidrolit.jpg",
+    "categoria": "Hogar",
+    "prioridad": 3,
+    "vendido": false,
+    "nuevo": "2026-08-15"
   }
 ]
