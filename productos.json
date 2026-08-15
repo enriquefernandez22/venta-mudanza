@@ -126,7 +126,7 @@
     "imagen": "img/Cabina-de-Uñas--UV-Led.png",
     "categoria": "Belleza",
     "prioridad": "",
-    "vendido": false,
+    "vendido": true,
     "nuevo": "2026-06-07"
   },
   {
@@ -178,7 +178,7 @@
     "imagen": "img/espejos.png",
     "categoria": "Muebles y Hogar",
     "prioridad": "",
-    "vendido": false,
+    "vendido": true,
     "nuevo": "2026-06-07"
   },
   {
@@ -274,7 +274,7 @@
   },
   {
     "id": 22,
-    "titulo": "Bandejas con forma  para decoración de fiestas",
+    "titulo": "Bandejas con forma para decoración de fiestas",
     "descripcion": "Bandejas con forma para decoración de fiestas. Muy buenas condiciones. Venta individual o en combo.",
     "fecha": "",
     "precioSugerido": "",
@@ -282,7 +282,7 @@
     "imagen": "img/Bandejas-para-decoracion-de-fiesta.png",
     "categoria": "Fiestas",
     "prioridad": "",
-    "vendido": false,
+    "vendido": true,
     "nuevo": ""
   },
   {
@@ -548,15 +548,15 @@
   {
     "id": 43,
     "titulo": "Bicicleta Olmo Cosmo Bold Rodado 16 Rueditas Infantil Negra",
-    "descripcion": "Bicicleta Olmo Cosmo Bold rodado 16 infantil. Buenas condiciones, poco uso. Requiere pequeño ajuste de frenos.",
+    "descripcion": "Bicicleta Olmo Cosmo Bold rodado 16 infantil. Buenas condiciones, poco uso. Requiere pequeño ajuste de frenos. Le falta una rueda de aprendizaje.",
     "fecha": "",
     "precioSugerido": "$85.000",
-    "precioVenta": "$80.000",
+    "precioVenta": "$70.000",
     "imagen": "img/Bicicleta-Olmo-cosmo-bol-rodado-16.png",
     "categoria": "Deportes y Aire Libre",
     "prioridad": "",
-    "vendido": false,
-    "nuevo": "2026-06-08"
+    "vendido": true,
+    "nuevo": ""
   },
   {
     "id": 44,
@@ -672,8 +672,8 @@
     "imagen": "img/Torno-multiuso.png",
     "categoria": "Herramientas",
     "prioridad": "",
-    "vendido": false,
-    "nuevo": "2026-06-11"
+    "vendido": true,
+    "nuevo": ""
   },
   {
     "id": 53,
@@ -711,7 +711,7 @@
     "imagen": "img/carteras.png",
     "categoria": "Indumentaria",
     "prioridad": "",
-    "vendido": false,
+    "vendido": true,
     "nuevo": ""
   },
   {
