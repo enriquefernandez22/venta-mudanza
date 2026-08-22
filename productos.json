@@ -9,13 +9,13 @@
     "imagen": "img/PLAYSTATION-3-PS3-250-GB.png",
     "categoria": "Electrónica",
     "prioridad": "",
-    "vendido": false,
+    "vendido": true,
     "nuevo": "2026-06-07"
   },
   {
     "id": 2,
     "titulo": "Televisor Tophouse 55\" 4K Smart TV",
-    "descripcion": "Cuenta con wi-fi y puerto de red. Posee 4 puertos HDMI. Equipado con conexión USB. Incluye control remoto.<br>Modelo: UDL50MP668LN",
+    "descripcion": "Cuenta con wi-fi y puerto de red. Posee 4 puertos HDMI. Equipado con conexión USB. Incluye control remoto.\nModelo: UDL50MP668LN",
     "fecha": "",
     "precioSugerido": "$520.000",
     "precioVenta": "$450.000",
@@ -761,7 +761,7 @@
     "precioSugerido": "",
     "precioVenta": "$150.000",
     "imagen": "img/Mesas-Candy-Bar-X-3.png",
-    "categoria": "",
+    "categoria": "Fiestas",
     "prioridad": "",
     "vendido": false,
     "nuevo": "2026-07-10"
@@ -774,7 +774,7 @@
     "precioSugerido": "",
     "precioVenta": "$110.000",
     "imagen": "img/Colchon-somier-2-plazas-y-media.png",
-    "categoria": "",
+    "categoria": "Muebles y Hogar",
     "prioridad": "",
     "vendido": false,
     "nuevo": "2026-07-10"
@@ -800,7 +800,7 @@
     "precioSugerido": "",
     "precioVenta": "$50.000",
     "imagen": "img/Silla-De-Escritorio-Ergonomica.png",
-    "categoria": "",
+    "categoria": "Muebles y Hogar",
     "prioridad": "",
     "vendido": false,
     "nuevo": "2026-07-10"
@@ -919,7 +919,7 @@
     "imagen": "img/silla-gerencial.jpg",
     "categoria": "Muebles y Hogar",
     "prioridad": 999,
-    "vendido": true,
+    "vendido": false,
     "nuevo": ""
   },
   {
@@ -934,5 +934,18 @@
     "prioridad": 3,
     "vendido": false,
     "nuevo": "2026-08-20"
+  },
+  {
+    "id": 97,
+    "titulo": "Impresora Multifunción Epson EcoTank L3150 Wi-Fi",
+    "descripcion": "Impresora multifunción sistema continuo original de fábrica (EcoTank). Imprime, copia y escanea. Conectividad Wi-Fi y USB. Muy económica en consumo de tinta. Funciona perfecto.",
+    "fecha": "",
+    "precioSugerido": "$190.000",
+    "precioVenta": "$170.000",
+    "imagen": "img/impresora-epson-l3150.jpg",
+    "categoria": "Electrónica",
+    "prioridad": 2,
+    "vendido": false,
+    "nuevo": "2026-08-22"
   }
 ]
