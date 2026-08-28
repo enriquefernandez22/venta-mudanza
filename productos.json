@@ -931,8 +931,8 @@
     "precioVenta": "$65.000",
     "imagen": "img/chifonier.jpg",
     "categoria": "Muebles y Hogar",
-    "prioridad": 3,
-    "vendido": false,
+    "prioridad": "",
+    "vendido": true,
     "nuevo": "2026-08-20"
   },
   {
