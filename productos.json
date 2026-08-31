@@ -74,7 +74,7 @@
     "imagen": "img/Tostadora.png",
     "categoria": "Electrodomésticos",
     "prioridad": "",
-    "vendido": false,
+    "vendido": true,
     "nuevo": "2026-06-07"
   },
   {
@@ -83,11 +83,11 @@
     "descripcion": "Cafetera SL-CM9402 en excelente estado. No incluye caja.",
     "fecha": "",
     "precioSugerido": "$20.000",
-    "precioVenta": "$20.000",
+    "precioVenta": "$15.000",
     "imagen": "img/cafetera.png",
     "categoria": "Electrodomésticos",
     "prioridad": "",
-    "vendido": false,
+    "vendido": true,
     "nuevo": "2026-06-07"
   },
   {
@@ -147,12 +147,12 @@
     "titulo": "Máquina giratoria resina tumbler doble",
     "descripcion": "Maquina giratoria para trabajos con resina. Ideal para decorar tazas. Mates. Vasos. Termos. Etc. Cuanta con 2 motores de 4 a 5 vueltas por minuto, eso le da tiempo a la resina que se valla secando uniformemente.",
     "fecha": "",
-    "precioSugerido": "$50.000",
-    "precioVenta": "$45.000",
+    "precioSugerido": "$45.000",
+    "precioVenta": "$25.000",
     "imagen": "img/Maquina-giratoria-doble-tumbler.png",
     "categoria": "Manualidades",
     "prioridad": "",
-    "vendido": false,
+    "vendido": true,
     "nuevo": "2026-06-07"
   },
   {
@@ -269,7 +269,7 @@
     "imagen": "img/Guillotina-Cizalla-A4.png",
     "categoria": "Manualidades",
     "prioridad": "",
-    "vendido": false,
+    "vendido": true,
     "nuevo": "2026-06-08"
   },
   {
@@ -603,11 +603,11 @@
     "descripcion": "Mountain bike SPX Typhoon Rodado: 26 Condición: Excelente estado Tipo de freno: Disco mecánico Cambios: 21 velocidades Shimano Tourney Cubiertas: Muy buen estado,Pintura: Buen estado Material cuadro: Aluminio",
     "fecha": "",
     "precioSugerido": "$300.000",
-    "precioVenta": "$265.000",
+    "precioVenta": "$220.000",
     "imagen": "img/Bicicleta.png",
     "categoria": "Deportes y Aire Libre",
     "prioridad": "",
-    "vendido": false,
+    "vendido": true,
     "nuevo": "2026-06-08"
   },
   {
@@ -854,7 +854,7 @@
     "imagen": "img/combo-desayuno.jpg",
     "categoria": "Combos",
     "prioridad": 2,
-    "vendido": false,
+    "vendido": true,
     "nuevo": "2026-08-14"
   },
   {
