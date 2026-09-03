@@ -165,7 +165,7 @@
     "imagen": "img/desayunador.png",
     "categoria": "Muebles y Hogar",
     "prioridad": 5,
-    "vendido": false,
+    "vendido": true,
     "nuevo": "2026-06-08"
   },
   {
@@ -217,7 +217,7 @@
     "imagen": "img/ventilador-3-En-1-Tivoli-18-Pulgadas-Con-5-Palas-Estructura-Blanco.png",
     "categoria": "Electrodomésticos",
     "prioridad": "",
-    "vendido": false,
+    "vendido": true,
     "nuevo": ""
   },
   {
@@ -373,7 +373,7 @@
     "imagen": "img/Termometro-Digital-Lcd-Para-Cocina.png",
     "categoria": "Repostería y Cocina",
     "prioridad": "",
-    "vendido": false,
+    "vendido": true,
     "nuevo": ""
   },
   {
@@ -646,7 +646,7 @@
     "imagen": "img/taladro-.png",
     "categoria": "Herramientas",
     "prioridad": "",
-    "vendido": false,
+    "vendido": true,
     "nuevo": "2026-06-11"
   },
   {
@@ -806,19 +806,6 @@
     "nuevo": "2026-08-06"
   },
   {
-    "id": 87,
-    "titulo": "Combo Desayuno: Cafetera + Tostadora + Exprimidor",
-    "descripcion": "¡Oportunidad por mudanza! Llévate los 3 electrodomésticos en excelente estado: Cafetera SL-CM9402, Tostadora Kansai T386 y Exprimidor Kansai.",
-    "fecha": "",
-    "precioSugerido": "$55.000",
-    "precioVenta": "$50.000",
-    "imagen": "img/combo-desayuno.jpg",
-    "categoria": "Combos",
-    "prioridad": 2,
-    "vendido": true,
-    "nuevo": "2026-08-14"
-  },
-  {
     "id": 91,
     "titulo": "Horno Eléctrico Liliana Grandcook (2400W)",
     "descripcion": "Modelo A0170. Horno de gran capacidad y altísima potencia (2400W), calienta súper rápido. Excelente estado, incluye rejilla, bandeja y un termómetro interno de regalo para cocciones exactas.",
@@ -867,7 +854,7 @@
     "imagen": "img/silla-gerencial.jpg",
     "categoria": "Muebles y Hogar",
     "prioridad": 999,
-    "vendido": false,
+    "vendido": true,
     "nuevo": ""
   },
   {
@@ -893,7 +880,7 @@
     "imagen": "img/aire-carrier.jpg",
     "categoria": "Electrodomésticos",
     "prioridad": 2,
-    "vendido": false,
+    "vendido": true,
     "nuevo": "2026-08-22"
   },
   {
@@ -906,7 +893,7 @@
     "imagen": "img/impresora-epson-l3150.jpg",
     "categoria": "Electrónica",
     "prioridad": 2,
-    "vendido": false,
+    "vendido": true,
     "nuevo": "2026-08-22"
   }
 ]
