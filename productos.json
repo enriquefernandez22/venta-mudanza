@@ -18,7 +18,7 @@
     "descripcion": "Cuenta con wi-fi y puerto de red. Posee 4 puertos HDMI. Equipado con conexión USB. Incluye control remoto.\nModelo: UDL50MP668LN",
     "fecha": "",
     "precioSugerido": "$450.000",
-    "precioVenta": "$400.000",
+    "precioVenta": "$360.000",
     "imagen": "img/Televisor-Tophouse-55.png",
     "categoria": "Electrónica",
     "prioridad": 1,
@@ -321,7 +321,7 @@
     "imagen": "img/Moldes-de-silicona.png",
     "categoria": "Repostería y Cocina",
     "prioridad": "",
-    "vendido": false,
+    "vendido": true,
     "nuevo": ""
   },
   {
@@ -334,7 +334,7 @@
     "imagen": "img/Cortantes-variados-de-galletas.png",
     "categoria": "Repostería y Cocina",
     "prioridad": "",
-    "vendido": false,
+    "vendido": true,
     "nuevo": ""
   },
   {
@@ -360,7 +360,7 @@
     "imagen": "img/Caja-de-varias-modelos-de-placas.png",
     "categoria": "Repostería y Cocina",
     "prioridad": "",
-    "vendido": false,
+    "vendido": true,
     "nuevo": ""
   },
   {
@@ -386,7 +386,7 @@
     "imagen": "img/set-de-bolw-de-aluminio.png",
     "categoria": "Repostería y Cocina",
     "prioridad": "",
-    "vendido": false,
+    "vendido": true,
     "nuevo": ""
   },
   {
@@ -412,7 +412,7 @@
     "imagen": "img/Set-de-4-moldes-Savarini.png",
     "categoria": "Repostería y Cocina",
     "prioridad": "",
-    "vendido": false,
+    "vendido": true,
     "nuevo": ""
   },
   {
@@ -425,7 +425,7 @@
     "imagen": "img/molde-cuadrado.png",
     "categoria": "Repostería y Cocina",
     "prioridad": "",
-    "vendido": false,
+    "vendido": true,
     "nuevo": ""
   },
   {
@@ -438,7 +438,7 @@
     "imagen": "img/set-de-aros.png",
     "categoria": "Repostería y Cocina",
     "prioridad": "",
-    "vendido": false,
+    "vendido": true,
     "nuevo": ""
   },
   {
@@ -477,7 +477,7 @@
     "imagen": "img/Set-de-moldes-26-20-18.png",
     "categoria": "Repostería y Cocina",
     "prioridad": "",
-    "vendido": false,
+    "vendido": true,
     "nuevo": ""
   },
   {
@@ -490,7 +490,7 @@
     "imagen": "img/set-de-moldes-27-20-14.png",
     "categoria": "Repostería y Cocina",
     "prioridad": "",
-    "vendido": false,
+    "vendido": true,
     "nuevo": ""
   },
   {
@@ -516,7 +516,7 @@
     "imagen": "img/Set-de-moldes-20-16-1.png",
     "categoria": "Repostería y Cocina",
     "prioridad": "",
-    "vendido": false,
+    "vendido": true,
     "nuevo": ""
   },
   {
@@ -895,5 +895,44 @@
     "prioridad": 2,
     "vendido": true,
     "nuevo": "2026-08-22"
+  },
+  {
+    "id": 99,
+    "titulo": "Ropero de madera rústico tipo tranquera",
+    "descripcion": "Ropero de madera maciza estilo rústico (tranquera), con 4 puertas (2 superiores y 2 inferiores) y estantes internos divididos. Gran capacidad de guardado, estructura robusta y sólida. Terminación en madera natural sin pintar/barnizar.",
+    "fecha": "",
+    "precioSugerido": "$100.000",
+    "precioVenta": "$70.000",
+    "imagen": "img/ropero-madera-rustico-cerrado.jpg",
+    "categoria": "Muebles y Hogar",
+    "prioridad": "",
+    "vendido": false,
+    "nuevo": "2026-09-03"
+  },
+  {
+    "id": 100,
+    "titulo": "Sillón cama de madera con carro (cama nido)",
+    "descripcion": "Sillón cama de 3 cuerpos, estructura de madera maciza, con carro/cama nido inferior extraíble. Funciona como sofá de día y cama extra para huéspedes de noche. Almohadones tapizados en tela azul, con signos de uso.",
+    "fecha": "",
+    "precioSugerido": "$55.000",
+    "precioVenta": "$40.000",
+    "imagen": "img/sillon-cama-collage.jpg",
+    "categoria": "Muebles y Hogar",
+    "prioridad": "",
+    "vendido": false,
+    "nuevo": "2026-09-03"
+  },
+  {
+    "id": 101,
+    "titulo": "Carpa tipi infantil de tela",
+    "descripcion": "Carpa tipi infantil de tela rayada blanco y negro, con estructura de madera. Ideal para juegos o como decoración de habitación infantil. Fácil de armar y desarmar.",
+    "fecha": "",
+    "precioSugerido": "$15.000",
+    "precioVenta": "$10.000",
+    "imagen": "img/carpa-tipi-infantil.jpg",
+    "categoria": "Muebles y Hogar",
+    "prioridad": "",
+    "vendido": false,
+    "nuevo": "2026-09-03"
   }
 ]
