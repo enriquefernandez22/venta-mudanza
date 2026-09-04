@@ -659,7 +659,7 @@
     "imagen": "img/Hidrolavadora.png",
     "categoria": "Herramientas",
     "prioridad": "",
-    "vendido": false,
+    "vendido": true,
     "nuevo": "2026-06-11"
   },
   {
@@ -828,7 +828,7 @@
     "imagen": "img/heladera-gafa.jpg",
     "categoria": "Electrodomésticos",
     "prioridad": 2,
-    "vendido": false,
+    "vendido": true,
     "nuevo": "2026-08-15"
   },
   {
