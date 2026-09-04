@@ -815,7 +815,7 @@
     "imagen": "img/horno-liliana.jpg",
     "categoria": "Electrodomésticos",
     "prioridad": 3,
-    "vendido": false,
+    "vendido": true,
     "nuevo": "2026-08-15"
   },
   {
@@ -841,7 +841,7 @@
     "imagen": "img/filtro-hidrolit.jpg",
     "categoria": "Hogar",
     "prioridad": 3,
-    "vendido": false,
+    "vendido": true,
     "nuevo": "2026-08-15"
   },
   {
