@@ -199,12 +199,12 @@
     "titulo": "Biblioteca Nordica Zig Zag",
     "descripcion": "De Pino en crudo sin pintar medidas 80 cmx 25 cm x 180 cm Aprox",
     "fecha": "",
-    "precioSugerido": "$45.000",
-    "precioVenta": "$35.000",
+    "precioSugerido": "$35.000",
+    "precioVenta": "$30.000",
     "imagen": "img/Biblioteca-Zigzag.png",
     "categoria": "Muebles y Hogar",
     "prioridad": 4,
-    "vendido": false,
+    "vendido": true,
     "nuevo": "2026-06-08"
   },
   {
@@ -680,12 +680,12 @@
     "titulo": "Pileta Pelopincho Mod. 1020",
     "descripcion": "1000 litro  tamaño 145 X 185 X 40",
     "fecha": "",
-    "precioSugerido": "$60.000",
-    "precioVenta": "$55.000",
+    "precioSugerido": "$55.000",
+    "precioVenta": "$50.000",
     "imagen": "img/Pelo-pincho.png",
     "categoria": "Deportes y Aire Libre",
     "prioridad": "",
-    "vendido": false,
+    "vendido": true,
     "nuevo": "2026-06-11"
   },
   {
@@ -763,7 +763,7 @@
     "imagen": "img/Silla-De-Escritorio-Ergonomica.png",
     "categoria": "Muebles y Hogar",
     "prioridad": "",
-    "vendido": false,
+    "vendido": true,
     "nuevo": "2026-07-10"
   },
   {
@@ -901,12 +901,12 @@
     "titulo": "Ropero de madera rústico tipo tranquera",
     "descripcion": "Ropero de madera maciza estilo rústico (tranquera), con 4 puertas (2 superiores y 2 inferiores) y estantes internos divididos. Gran capacidad de guardado, estructura robusta y sólida. Terminación en madera natural sin pintar/barnizar.",
     "fecha": "",
-    "precioSugerido": "$100.000",
-    "precioVenta": "$70.000",
+    "precioSugerido": "$70.000",
+    "precioVenta": "$55.000",
     "imagen": "img/ropero-madera-rustico-cerrado.jpg",
     "categoria": "Muebles y Hogar",
     "prioridad": "",
-    "vendido": false,
+    "vendido": true,
     "nuevo": "2026-09-03"
   },
   {
@@ -919,7 +919,7 @@
     "imagen": "img/sillon-cama-collage.jpg",
     "categoria": "Muebles y Hogar",
     "prioridad": "",
-    "vendido": false,
+    "vendido": true,
     "nuevo": "2026-09-03"
   },
   {
