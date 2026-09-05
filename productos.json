@@ -932,7 +932,7 @@
     "imagen": "img/carpa-tipi-infantil.jpg",
     "categoria": "Muebles y Hogar",
     "prioridad": "",
-    "vendido": false,
+    "vendido": true,
     "nuevo": "2026-09-03"
   }
 ]
