@@ -28,7 +28,7 @@
   {
     "id": 3,
     "titulo": "Impresora de corte Brother ScanNCut SDX225",
-    "descripcion": "Máquina de corte profesional ideal para emprendimientos. Funciona perfecto y corta con precisión. Incluye su caja original y dos hojillas (para papel y para vinilo).",
+    "descripcion": "Máquina de corte profesional ideal para emprendimientos. Funciona perfecto y corta con precisión. Incluye su caja original. Trae 3 hojillas: una para opalina/papeles, otra para corte de vinilos y otra para corte de tela. Incluye 2 tapetes + 1 tapete soporte para corte de tela. Accesorios: porta-hojillas, porta-fibrón (con fibrones originales y fibrones para dibujar en tela), espátula y ganchillo. En memoria interna tiene cargados más de 100 diseños listos para usar.",
     "fecha": "",
     "precioSugerido": "$850.000",
     "precioVenta": "$750.000",
@@ -853,8 +853,8 @@
     "precioVenta": "$90.000",
     "imagen": "img/silla-gerencial.jpg",
     "categoria": "Muebles y Hogar",
-    "prioridad": 999,
-    "vendido": true,
+    "prioridad": "",
+    "vendido": false,
     "nuevo": ""
   },
   {
@@ -934,5 +934,70 @@
     "prioridad": "",
     "vendido": true,
     "nuevo": "2026-09-03"
+  },
+  {
+    "id": 102,
+    "titulo": "Combo Soporte Triple Monitor Klip Xtreme + Organizador de Cables Rodak",
+    "descripcion": "Soporte triple para monitor Klip Xtreme, articulado, apto para pantallas de 13\" a 27\" hasta 8kg cada una, con brazos totalmente ajustables (inclinación, giro y rotación). Incluye organizador de cables de base marca Rodak. Ideal para setup multi-monitor de oficina o gaming. Usado, en buen estado y funcionando.",
+    "fecha": "",
+    "precioSugerido": "$120.000",
+    "precioVenta": "$100.000",
+    "imagen": "img/soporte-triple-monitor-completo.jpg",
+    "categoria": "Combos",
+    "prioridad": "",
+    "vendido": false,
+    "nuevo": "2026-09-04"
+  },
+  {
+    "id": 103,
+    "titulo": "Monopatín Star Vision 3 Ruedas Celeste (Plegable) + Monopatín Spiderman de Regalo",
+    "descripcion": "Monopatín infantil de 3 ruedas, marca Star Vision, color celeste, plegable, altura de manubrio regulable. Se vende este (el celeste) y se REGALA con la compra el segundo monopatín (diseño Spiderman, 3 ruedas, con luces en ruedas). Ambos en buen estado de uso.",
+    "fecha": "",
+    "precioSugerido": "$25.000",
+    "precioVenta": "$20.000",
+    "imagen": "img/monopatin-celeste-star-vision.jpg",
+    "categoria": "Deportes y Aire Libre",
+    "prioridad": "",
+    "vendido": false,
+    "nuevo": "2026-09-04"
+  },
+  {
+    "id": 104,
+    "titulo": "Licuadora Philips 600W",
+    "descripcion": "Licuadora Philips de 600W, con jarra grande (aprox. 1.5L), 3 velocidades + pulso + quick clean. Funcionando correctamente. Uso visible en la jarra (sin roturas).",
+    "fecha": "",
+    "precioSugerido": "$35.000",
+    "precioVenta": "$30.000",
+    "imagen": "img/licuadora-philips-600w.jpg",
+    "categoria": "Electrodomésticos",
+    "prioridad": "",
+    "vendido": false,
+    "nuevo": "2026-09-04"
+  },
+  {
+    "id": 105,
+    "titulo": "Estante de madera rústico pintado blanco",
+    "descripcion": "Estante/repisa de madera artesanal, pintado en blanco, con 3 niveles tipo cajón abierto. Ideal para decoración, guardado o exhibición de productos (frutas, plantas, artículos varios). Pintura con signos de uso y desgaste en algunos bordes.",
+    "fecha": "",
+    "precioSugerido": "$28.000",
+    "precioVenta": "$20.000",
+    "imagen": "img/estante-madera-blanco.jpg",
+    "categoria": "Muebles y Hogar",
+    "prioridad": "",
+    "vendido": false,
+    "nuevo": "2026-09-04"
+  },
+  {
+    "id": 106,
+    "titulo": "Mixer Kanji 3 en 1 800W LIC-BL0800LA02-KJN",
+    "descripcion": "Mixer/minipimer 3 en 1 marca Kanji, 800W, 2 velocidades, cuchillas de acero inoxidable, varilla removible. Incluye picadora de 500ml y vaso medidor de 700ml. Ideal para licuar, batir, picar y mezclar.",
+    "fecha": "",
+    "precioSugerido": "$30.000",
+    "precioVenta": "$20.000",
+    "imagen": "img/mixer-kanji-800w.jpg",
+    "categoria": "Electrodomésticos",
+    "prioridad": "",
+    "vendido": false,
+    "nuevo": "2026-09-04"
   }
 ]
