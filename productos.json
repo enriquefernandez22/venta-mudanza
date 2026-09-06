@@ -971,7 +971,7 @@
     "imagen": "img/licuadora-philips-600w.jpg",
     "categoria": "Electrodomésticos",
     "prioridad": "",
-    "vendido": false,
+    "vendido": true,
     "nuevo": "2026-09-04"
   },
   {
@@ -997,7 +997,7 @@
     "imagen": "img/mixer-kanji-800w.jpg",
     "categoria": "Electrodomésticos",
     "prioridad": "",
-    "vendido": false,
+    "vendido": true,
     "nuevo": "2026-09-04"
   }
 ]
