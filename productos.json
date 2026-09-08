@@ -295,7 +295,7 @@
     "imagen": "img/Carro-De-Almacenamiento.png",
     "categoria": "Muebles y Hogar",
     "prioridad": "",
-    "vendido": false,
+    "vendido": true,
     "nuevo": ""
   },
   {
@@ -849,8 +849,8 @@
     "titulo": "Silla Gerencial Ergonómica Mesh Gris con Cabezal",
     "descripcion": "Silla de oficina ergonómica de alto confort. Respaldo doble con soporte lumbar en malla respirable, apoyacabezas, apoyabrazos rebatibles y base estrella cromada.",
     "fecha": "",
-    "precioSugerido": "$90.000",
-    "precioVenta": "$80.000",
+    "precioSugerido": "$80.000",
+    "precioVenta": "$60.000",
     "imagen": "img/silla-gerencial.jpg",
     "categoria": "Muebles y Hogar",
     "prioridad": "",
@@ -958,7 +958,7 @@
     "imagen": "img/monopatin-celeste-star-vision.jpg",
     "categoria": "Deportes y Aire Libre",
     "prioridad": "",
-    "vendido": false,
+    "vendido": true,
     "nuevo": "2026-09-04"
   },
   {
