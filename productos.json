@@ -797,12 +797,12 @@
     "titulo": "PC de Escritorio",
     "descripcion": "Potente PC de escritorio ideal para gaming y multitarea pesada. Procesador AMD FX-8350 (8 núcleos), memoria RAM de 32GB DDR3 para trabajar con muchas aplicaciones abiertas sin trabarse, y placa de video Radeon RX 480 de 8GB para jugar cómodo en 1080p con buenos gráficos. Un equipo con mucho músculo para el precio.",
     "fecha": "",
-    "precioSugerido": "$400.000",
-    "precioVenta": "$360.000",
+    "precioSugerido": "$360.000",
+    "precioVenta": "$340.000",
     "imagen": "img/pc.jpg",
     "categoria": "Electrónica",
     "prioridad": "",
-    "vendido": false,
+    "vendido": true,
     "nuevo": "2026-08-06"
   },
   {
@@ -999,5 +999,18 @@
     "prioridad": "",
     "vendido": true,
     "nuevo": "2026-09-04"
+  },
+  {
+    "id": 107,
+    "titulo": "Monitor Gamer Sentey MS-2401 24\" IPS 144Hz",
+    "descripcion": "Monitor gamer en estado impecable. Panel IPS 23.8\" Full HD, 144Hz de tasa de refresco, 1ms de tiempo de respuesta y AMD FreeSync. Se entrega completo en su caja original con soporte y manuales. Cero detalles, sin rayones ni píxeles muertos.",
+    "fecha": "",
+    "precioSugerido": "$230.000",
+    "precioVenta": "$120.000",
+    "imagen": "img/monitor-sentey-2401.jpg",
+    "categoria": "Electrónica",
+    "prioridad": "Alta",
+    "vendido": false,
+    "nuevo": "2026-09-09"
   }
 ]
