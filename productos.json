@@ -854,7 +854,7 @@
     "imagen": "img/silla-gerencial.jpg",
     "categoria": "Muebles y Hogar",
     "prioridad": "",
-    "vendido": false,
+    "vendido": true,
     "nuevo": ""
   },
   {
